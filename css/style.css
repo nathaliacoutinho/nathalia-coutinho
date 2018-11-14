@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Indie+Flower|Oswald|Wellfleet');
+
+/* --- Components design --- */
+@import url("components/svg.css");
+@import url("components/banner.css");
+@import url("components/navbar.css");
+
+
+body {
+  margin: 0;
+}
+
+
+.about-picture {
+  width: 400px;
+}
+
+.wrapper {
+  padding: 2em 0;
+}
+
+.fab {
+  color:white; 
+  opacity: 0.5;
+}
+
+.fab:hover {
+  color:  #F1E8B8;
+  opacity: 1;
+}
+
+.far {
+  color: white;
+  opacity: 0.5;
+}
+
+.far:hover {
+  color: #F1E8B8;
+  opacity: 1;
+}
+
+
+
+
+
+
+.social-links {
+  position: relative;
+  top: 115px;
+  font-size: 40px;
+}
