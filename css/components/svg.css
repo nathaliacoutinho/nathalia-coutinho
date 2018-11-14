@@ -1,0 +1,63 @@
+svg {
+  stroke-width: 17;
+  width: 600px;
+  transition: transform .5s ease-out;
+}
+
+#n {
+stroke-dasharray: 785.943;
+stroke-dashoffset: 785.943;
+animation: dash 0.3s linear forwards;
+}
+
+#alia {
+stroke-dasharray: 3588.717;
+stroke-dashoffset: 3588.717;
+animation: dash 2s linear forwards;
+animation-delay: .5s;
+}
+
+#heart {
+stroke-dasharray: 139.073;
+stroke-dashoffset: 139.073;
+animation: dash 0.5s linear forwards;
+animation-delay: 3s;
+
+}
+
+#t {
+stroke-dasharray: 114.039;
+stroke-dashoffset: 114.039;
+animation: dash 0.5s linear forwards;
+animation-delay: 2.5s;
+}
+
+#coutinho {
+stroke-dasharray: 2578.728;
+stroke-dashoffset: 2578.728;
+animation: coutinho 1s linear forwards 3s;
+animation-delay: 3.5s;
+
+}
+
+@keyframes coutinho {
+0% {
+  opacity: 0;
+  stroke-dashoffset: 2578.728;
+}
+100% {
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+}
+
+@keyframes dash {
+to {
+  stroke-dashoffset: 0;
+}
+}
+
+.svg-wrapper {
+  position: relative;
+  align-content: center;
+}

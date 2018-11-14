@@ -1,0 +1,43 @@
+ .profile-content {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  color: #000;
+  background: #fff;
+  margin: 0 auto;
+  max-width: 970px;
+}
+
+.pink-wrapper {
+  /* background-color: #F5B7CF;; */
+  background-color: #fff;  
+}
+.title  h2 {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.title p {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+  opacity: 0.6;
+}
+
+.title {
+display: block;
+flex-basis: 0;
+flex-grow: 1;
+flex-shrink: 1;
+padding: .75rem;
+}
+
+.title img {
+  width: 200px;
+}
