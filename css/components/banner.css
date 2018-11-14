@@ -8,7 +8,7 @@
   color: #000;
   background: #fff;
   margin: 0 auto;
-  width: 970px;
+  max-width: 970px;
 }
 
 .pink-wrapper {
