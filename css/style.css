@@ -4,6 +4,8 @@
 @import url("components/svg.css");
 @import url("components/banner.css");
 @import url("components/navbar.css");
+@import url("components/card.css");
+@import url("components/footer.css");
 
 
 body {
@@ -15,37 +17,19 @@ body {
   width: 400px;
 }
 
-.wrapper {
+.about-session {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.wrapper-purple {
   padding: 2em 0;
+  background: #562D3B;
 }
 
-.fab {
-  color:white; 
-  opacity: 0.5;
+.work-session {
+  margin-bottom: 30px;
 }
 
-.fab:hover {
-  color:  #F1E8B8;
-  opacity: 1;
-}
-
-.far {
-  color: white;
-  opacity: 0.5;
-}
-
-.far:hover {
-  color: #F1E8B8;
-  opacity: 1;
-}
-
-
-
-
-
-
-.social-links {
-  position: relative;
-  top: 115px;
-  font-size: 40px;
-}

@@ -1,13 +1,15 @@
 .navbar-transparent {
   height: 70px;
+  padding: 0px 30px;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  margin-right: 32px;
-  background: transparent;
+  justify-content: flex-end;
 }
 
-.menu-right a {
+
+
+
+.navbar-right a {
   text-decoration: none;
   font-weight: 400;
   color:#562D3B;
@@ -16,7 +18,7 @@
   border-radius: 5px;
 }
 
-.menu-right a:hover {
+.navbar-right a:hover {
   background: #562D3B;
   color: #fff;
   text-decoration: none;
